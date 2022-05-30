@@ -9,13 +9,16 @@
 # 文件构成
 
 ##CarProducer.pro
+
 $$PWD/mian.cpp 主程序，先启动conndlg对话框选择连接的数据库，默认选择SQLITE。
 $$PWD/MainWindow.cpp 浏览界面，从数据库读取汽车生产商列表、汽车品牌，并根据选中的生产商和汽车品牌选择展示细节信息，可以进行增加、删除汽车品牌操作。
 
 ##conndlg.pri
+
 $$PWD/conndlg/conndlg.cpp 数据库连接对话框UI及其功能，包含数据库创建与连接，写入默认数据。
 
 ##editdialog.pri
+
 $$PWD/editdialog/editdialog.cpp 添加汽车品牌对话框UI及其功能，主要功能为将用户填写的数据写入XML文件与数据库中。
 
 # 存在问题
